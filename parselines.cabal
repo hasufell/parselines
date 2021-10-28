@@ -30,6 +30,7 @@ executable parselines
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:     base ^>=4.14.3.0
+                     , attoparsec
                      , exceptions
                      , streamly
                      , word8
