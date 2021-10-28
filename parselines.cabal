@@ -31,8 +31,11 @@ executable parselines
     -- other-extensions:
     build-depends:     base ^>=4.14.3.0
                      , attoparsec
+                     , dlist
                      , exceptions
+                     , mtl
                      , streamly
+                     , streamly-bytestring
                      , word8
                      , bytestring
     hs-source-dirs:   app
